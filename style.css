@@ -7,8 +7,10 @@ body {
 
 .card {
     margin: 0 18rem 0 18rem;
+
     display: flex;
     flex-direction: row;
+
     border-radius: 10px;
     border: none;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.116);
@@ -21,11 +23,62 @@ body {
   
 }
 
-.leftSide {
-    
+.rightSide{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.title {
+
+    color:hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-size: 19px;
     
 }
 
-.righSide {
-    
+.main{
+    margin-top: 1rem;
+    color: hsl(214, 17%, 51%);
 }
+
+.creator{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 65px;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 60%;
+    margin: 1rem 1rem 0 0;
+}
+
+.nameDate {
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+}
+
+.creator-name{
+    
+    font-weight: 700;
+    color:hsl(217, 19%, 35%);
+}
+
+.date{
+    color: hsl(212, 23%, 69%);
+}
+
+.share img{
+    height: auto;
+    margin-top: 1rem;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+
+    
+
+

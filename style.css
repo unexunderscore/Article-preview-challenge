@@ -6,7 +6,7 @@ body {
 }
 
 .card {
-    margin: 0 18rem 0 18rem;
+    margin: 0 17rem 0 17rem;
 
     display: flex;
     flex-direction: row;
@@ -70,26 +70,42 @@ body {
     color: hsl(212, 23%, 69%);
 }
 
+
+
 .share img{
     height: auto;
     margin-top: 1rem;
     background-color: hsl(210, 46%, 95%);
     border-radius: 50%;
     padding: 0.5rem;
+    
 }
+
 
 .box2 {
     width: 250px;
-    margin: 50px auto;
+
+    margin: 0;
+    padding: 12px;
+
     border: 4px solid hsl(217, 19%, 35%);
     border-radius: 10px;
-    padding: 12px;
+
+   
     text-align: center;
     letter-spacing: 2px;
     font-weight: 500;
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.308);
     background-color: hsl(217, 19%, 35%);
     color: hsl(212, 23%, 69%);
+    
     position: relative;
+    left: 837px;
+    top: -200px;
+    z-index: 0;
+    display: none;
+    
   }
   
   .sb9:before {
@@ -103,6 +119,7 @@ body {
     border-bottom: 12px solid transparent;
     right: 45%;
     bottom: -28px;
+    
    }
 
 .box2 img {
@@ -111,4 +128,9 @@ body {
 
 .fb-icon {
     margin-left: 15px;
+}
+
+.onClick {
+    background-color:hsl(217, 19%, 35%);
+    padding: 1.5rem;
 }

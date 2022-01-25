@@ -20,6 +20,7 @@ btn.onclick = function() {
         modal.style.display = "none";
         share.style.padding = "0.5rem";
         share.style.backgroundColor = "hsl(210, 46%, 95%)";
+        share.style.color = "white";
         count = 0;
     }
 }

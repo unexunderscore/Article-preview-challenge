@@ -58,6 +58,7 @@ body {
 .nameDate {
     margin-top: 1rem;
     margin-right: 1.5rem;
+
 }
 
 .creator-name{
@@ -133,4 +134,85 @@ body {
 .onClick {
     background-color:hsl(217, 19%, 35%);
     padding: 1.5rem;
+}
+
+.drawers {
+    display: none;
+}
+
+/* On screens that are 1400px or less, set the background color to blue */
+@media screen and (max-width: 1400px) {
+
+    body{
+        margin: 0;
+        margin-top: 8vh;
+    }
+
+    .card {
+        margin: auto;
+        max-width: 464px;
+        min-width: 316px;
+    }
+
+.rightSide{
+    width: 88%;
+}
+
+.title{
+    font-size: 16px;
+    padding-left: 30px;
+} 
+
+.main {
+    padding-left: 30px;
+    padding-right: 18px;
+    
+}
+
+.creator {
+    padding-left: 30px;
+    
+}
+
+
+.img-icon {
+    border-radius: 10px 10px 0 0;
+}
+
+.creator-name{
+    min-width: 114px;
+}
+
+.share {
+    padding-right: 0;
+}
+#myBtn {
+    flex-shrink: 0;
+    margin-left: 15%;
+}
+
+.box2 {
+    position: relative;
+    top: -110px;
+    left: auto;
+    margin-left: 32.9%;
+}
+
+.nameDate{
+    padding-right: 0px;
+}
+
+
+.share img{
+    width: 100%;
+}
+
+.drawer{
+    display: none;
+}
+
+.drawers {
+   display: block;
+}
+
 }

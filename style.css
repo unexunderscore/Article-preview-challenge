@@ -5,6 +5,10 @@ body {
     margin-top: 32vh;
 }
 
+.mobile-share{
+    display: none;
+}
+
 .card {
     margin: 0 17rem 0 17rem;
 
@@ -139,6 +143,9 @@ body {
 .drawers {
     display: none;
 }
+#myBtn2{
+    display: none;
+}
 
 /* On screens that are 1400px or less, set the background color to blue */
 @media screen and (max-width: 1400px) {
@@ -186,16 +193,36 @@ body {
 .share {
     padding-right: 0;
 }
+
+
+
+
 #myBtn {
+    display: none;
     flex-shrink: 0;
     margin-left: 15%;
 }
 
+#myBtn2 {
+    display: flex;
+    position: absolute;
+
+    bottom: 28px;
+    left: 166px;
+
+    z-index: 100;
+
+   
+}
+
+
+
 .box2 {
-    position: relative;
-    top: -110px;
-    left: auto;
-    margin-left: 32.9%;
+  position: absolute;
+    top:65vh;
+    left:33vw;
+    margin: auto;
+
 }
 
 .nameDate{
@@ -214,5 +241,53 @@ body {
 .drawers {
    display: block;
 }
+
+.mobile-share{
+    display: none;
+    
+    position: absolute;
+
+    left: 0;
+    bottom:0;
+
+    margin: 0;
+    padding: 28px;
+    border-radius: 0 0 12px 12px;
+
+    color: hsl(212, 23%, 69%);
+    background-color: hsl(217, 19%, 35%);
+}
+
+.share2{
+    
+    width: 30px;
+    height: 30px;
+
+    background-color: hsl(210, 46%, 95%);
+
+    border-radius: 50%;
+    padding: 0.5rem;
+
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    
+}
+
+.share2 img {
+    display: block;
+    margin: auto;
+
+}
+
+.tw-icon{
+    margin-left: 15px;
+}
+
+.pt-icon {
+    margin-left: 15px;
+}
+
+
 
 }
